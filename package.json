@@ -5,6 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "go": "next build && next start",
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {

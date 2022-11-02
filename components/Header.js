@@ -11,7 +11,7 @@ export default function Header() {
         >
           <div class="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
             <div class="flex w-full items-center justify-between md:w-auto">
-              <a href="#">
+              <a href="/">
                 <Image
                   alt="Wahyu Nugraha"
                   class="h-8 w-auto sm:h-10"
@@ -45,11 +45,22 @@ export default function Header() {
             </div>
           </div>
           <div class="hidden md:ml-10 md:block md:space-x-8 md:pr-4">
-            <a href="https://linkedin.com/in/wahyuadityanugraha" class="font-medium text-gray-500 hover:text-gray-900">
-              About
+            <a
+              href="https://linkedin.com/in/wahyuadityanugraha"
+              class="font-medium text-gray-500 hover:text-gray-900"
+            >
+              Resume
             </a>
-
-            <a href="https://linkedin.com/in/wahyuadityanugraha" class="font-medium text-gray-500 hover:text-gray-900">
+            <a
+              href="/works"
+              class="font-medium text-gray-500 hover:text-gray-900"
+            >
+              Works
+            </a>
+            <a
+              href="/experience"
+              class="font-medium text-gray-500 hover:text-gray-900"
+            >
               Experience
             </a>
             <a
@@ -101,11 +112,18 @@ export default function Header() {
               href="https://linkedin.com/in/wahyuadityanugraha"
               class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
             >
-              About
+              Resume
             </a>
 
             <a
-              href="https://linkedin.com/in/wahyuadityanugraha"
+              href="/works"
+              class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+            >
+              Works
+            </a>
+
+            <a
+              href="/experience"
               class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900"
             >
               Experience

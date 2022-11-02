@@ -1,24 +1,16 @@
-import Image from "next/image";
-import Wahyu from "../public/wahyu.svg";
-
-export default function HeroHome() {
+export default function HomeContent() {
   return (
-    <div class="relative overflow-hidden flex items-center justify-between">
-      <div class="mx-auto w-1/2">
-        <div class="sm:text-center lg:text-left">
+    <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
             <span class="block xl:inline">Hi, My name is Wahyu Nugraha</span>
             <br />
-            <span class="block text-indigo-600 xl:inline">
+            <span class="block text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400 xl:inline">
               Creative Technologist
             </span>
           </h1>
           <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-            Specialized in Front-end Architect, who has specialisation for
-            develop cutting edge web & mobile applications.
-            Based in Jakarta, Indonesia.
-            With years of experience in many industries, such as Banking, B2B
-            commerce, Tax, Blockchain, Social Media Platform, Marketing
+            Specialized as Front-end Architect, develop cutting edge web & mobile applications.
+            Based in Jakarta, Indonesia.With years of experience in many industries, such as Banking, B2B commerce, Tax, Blockchain, Social Media Platform, Marketing
             & Analytics
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -40,10 +32,5 @@ export default function HeroHome() {
             </div>
           </div>
         </div>
-      </div>
-      <div class="mx-auto w-1/2">
-        <Image class="w-full h-96" src={Wahyu} alt="" />
-      </div>
-    </div>
   );
 }
