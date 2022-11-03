@@ -41,159 +41,46 @@ var wahyu = __webpack_require__(727);
 
 
 function Header() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                class: "relative px-4 pt-6 sm:px-6 lg:px-8",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
-                    class: "relative flex items-center justify-between sm:h-10 lg:justify-start",
-                    "aria-label": "Global",
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            class: "relative px-4 pt-6 sm:px-6 lg:px-8",
+            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                class: "flex flex-shrink-0 flex-grow items-center lg:flex-grow-0",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    class: "flex w-full justify-between md:w-auto items-center",
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            class: "flex flex-shrink-0 flex-grow items-center lg:flex-grow-0",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                class: "flex w-full items-center justify-between md:w-auto",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            alt: "Wahyu Nugraha",
-                                            class: "h-8 w-auto sm:h-10",
-                                            src: wahyu/* default */.Z
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        class: "-mr-2 flex items-center md:hidden",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
-                                            type: "button",
-                                            class: "inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500",
-                                            "aria-expanded": "false",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                    class: "sr-only",
-                                                    children: "Open main menu"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                    class: "h-6 w-6",
-                                                    xmlns: "http://www.w3.org/2000/svg",
-                                                    fill: "none",
-                                                    viewBox: "0 0 24 24",
-                                                    "stroke-width": "1.5",
-                                                    stroke: "currentColor",
-                                                    "aria-hidden": "true",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                        "stroke-linecap": "round",
-                                                        "stroke-linejoin": "round",
-                                                        d: "M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                                                    })
-                                                })
-                                            ]
-                                        })
-                                    })
-                                ]
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                alt: "Wahyu Nugraha",
+                                class: "h-8 w-auto sm:h-10",
+                                src: wahyu/* default */.Z
                             })
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            class: "hidden md:ml-10 md:block md:space-x-8 md:pr-4",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://linkedin.com/in/wahyuadityanugraha",
-                                    class: "font-medium text-gray-500 hover:text-gray-900",
-                                    children: "Resume"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "/works",
-                                    class: "font-medium text-gray-500 hover:text-gray-900",
-                                    children: "Works"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "/experience",
-                                    class: "font-medium text-gray-500 hover:text-gray-900",
-                                    children: "Experience"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "mailto:wahyuadityanugraha@rocketmail.com",
-                                    class: "font-medium text-indigo-600 hover:text-indigo-500",
-                                    children: "Contact"
-                                })
-                            ]
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                class: "absolute inset-x-0 top-0 z-10 origin-top-right transform p-2 transition md:hidden",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    class: "overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            class: "flex items-center justify-between px-5 pt-4",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        alt: "Wahyu Nugraha",
-                                        class: "h-8 w-auto sm:h-10",
-                                        src: wahyu/* default */.Z
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    class: "-mr-2",
-                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
-                                        type: "button",
-                                        class: "inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                                class: "sr-only",
-                                                children: "Close main menu"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                class: "h-6 w-6",
-                                                xmlns: "http://www.w3.org/2000/svg",
-                                                fill: "none",
-                                                viewBox: "0 0 24 24",
-                                                "stroke-width": "1.5",
-                                                stroke: "currentColor",
-                                                "aria-hidden": "true",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                    "stroke-linecap": "round",
-                                                    "stroke-linejoin": "round",
-                                                    d: "M6 18L18 6M6 6l12 12"
-                                                })
-                                            })
-                                        ]
-                                    })
-                                })
-                            ]
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "https://linkedin.com/in/wahyuadityanugraha",
+                            class: "font-medium px-3 text-gray-500 hover:text-gray-900",
+                            children: "Resume"
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            class: "space-y-1 px-2 pt-2 pb-3",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "https://linkedin.com/in/wahyuadityanugraha",
-                                    class: "block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900",
-                                    children: "Resume"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "/works",
-                                    class: "block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900",
-                                    children: "Works"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "/experience",
-                                    class: "block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900",
-                                    children: "Experience"
-                                })
-                            ]
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/works",
+                            class: "font-medium px-3 text-gray-500 hover:text-gray-900",
+                            children: "Works"
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            href: "/experience",
+                            class: "font-medium px-3 text-gray-500 hover:text-gray-900",
+                            children: "Experience"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("a", {
                             href: "mailto:wahyuadityanugraha@rocketmail.com",
-                            class: "block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100",
+                            class: "font-medium px-3 text-indigo-600 hover:text-indigo-500",
                             children: "Contact"
                         })
                     ]
                 })
             })
-        ]
+        })
     });
 }
 
@@ -346,7 +233,7 @@ var wahyu = __webpack_require__(727);
 function Wahyu() {
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-            class: "w-full h-96",
+            class: "object-contain ",
             src: wahyu/* default */.Z,
             alt: ""
         })
@@ -358,15 +245,17 @@ function Wahyu() {
 
 function PageBlock({ children  }) {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        class: "relative overflow-hidden flex items-center justify-between",
+        class: "md:max-lg:flex overflow-hidden flex items-center justify-between",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                class: "mx-auto w-1/2",
+                class: "flex",
                 children: children
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                class: "mx-auto w-1/2",
-                children: /*#__PURE__*/ jsx_runtime_.jsx(Wahyu, {})
+                class: "flex",
+                children: /*#__PURE__*/ jsx_runtime_.jsx(Wahyu, {
+                    class: "visible md:invisible"
+                })
             })
         ]
     });
